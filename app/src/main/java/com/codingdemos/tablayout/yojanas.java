@@ -39,7 +39,7 @@ public class yojanas extends AppCompatActivity {
         imgscheme2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(yojanas.this, scheme1.class);
+                Intent intent = new Intent(yojanas.this, scheme2.class);
                 startActivity(intent);
             }
         });
@@ -47,7 +47,7 @@ public class yojanas extends AppCompatActivity {
         imgscheme3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(yojanas.this, scheme1.class);
+                Intent intent = new Intent(yojanas.this, scheme3.class);
                 startActivity(intent);
             }
         });
